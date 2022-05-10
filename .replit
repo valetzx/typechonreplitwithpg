@@ -1,0 +1,7 @@
+run = "sh setup.sh"
+
+[nix]
+channel = "stable-21_11"
+
+[env]
+PGDATA = "/home/runner/${REPL_SLUG}/data"
